@@ -1,0 +1,244 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  color: white;
+  font-size: 1rem;
+}
+
+.hideError {
+  visibility: hidden;
+  margin-top: 2.5%;
+}
+
+.writeTweetContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.tweetOutline {
+  border: 1px solid white;
+  padding: 1.5%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.tweetInput {
+  border-color: transparent;
+  outline: none;
+  width: 100%;
+  background-color: #15202b;
+}
+
+.bottomOfTweet {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweetButton {
+  height: 100%;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tweetContainer {
+  background-color: #343a40;
+  border-radius: 5px;
+  width: 100%;
+  margin: 1% 0 1% 0;
+  padding: 2%;
+}
+
+.tweetHeader {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tweetHeader p {
+  color: #888989;
+}
+
+.mainContainer {
+  width: 50%;
+}
+
+.outer {
+  background-color: #15202b;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.outer2 {
+  background-color: #15202b;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.tweetContent {
+  text-align: start;
+  word-wrap: break-word;
+}
+
+nav {
+  background-color: #343a40;
+  position: fixed;
+  width: 60%;
+  border-radius: 5px;
+  padding-top: 1%;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.inactiveNavItem {
+  text-decoration: none !important;
+  color: #888989; 
+  margin-right: 20px;
+}
+
+.activeNavItem {
+    text-decoration: none !important;
+    color: white; 
+    margin-right: 20px;
+}
+
+.activeNavItem:hover, .inactiveNavItem:hover {
+  color: white;
+}
+
+#userName, #email {
+  background-color: #343a40;
+}
+
+.hideWelcome {
+  visibility: hidden;
+}
+
+.profileFormContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+  
+}
+
+.userNameContainer {
+  display: flex;
+  flex-direction: column;
+} 
+
+.saveButtonContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.userNameLabel {
+  display: flex;
+  justify-content: start;
+  
+}
+
+.userNameContainer input {
+  border-color: transparent;
+  outline: none;
+  width: 30rem;
+  background-color: #15202b;
+  border-radius: 5px;
+  margin-bottom: 3%;
+}
+
+.objTitle {
+  border: 2px solid black;
+  color: black;
+}
+
+.signUpFormContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  
+}
+
+.buttonContainer button {
+  margin-right: 15px;
+}
+
+.tweetHeader img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+.dateContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
